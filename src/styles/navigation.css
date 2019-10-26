@@ -1,0 +1,8 @@
+.current-page {
+  color: #2775ff;
+}
+
+.current-page img {
+  opacity: 1;
+  filter: grayscale(0%);
+}

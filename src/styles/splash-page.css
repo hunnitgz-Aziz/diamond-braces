@@ -1,0 +1,11 @@
+.splash-page .tab-navigator {
+  display: none;
+}
+
+.splash-page .button {
+  position: absolute;
+  bottom: 20px;
+  z-index: 1001;
+  left: 50%;
+  transform: translate(-50%);
+}
