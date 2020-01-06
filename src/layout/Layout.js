@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const Layout = styled.div`
   width: 320px;
-  height: 480px;
+  height: 530px;
   margin: auto;
   background: #f2fcff;
   border-radius: 10px;

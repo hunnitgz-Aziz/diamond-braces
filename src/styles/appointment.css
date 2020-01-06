@@ -1,0 +1,8 @@
+.book-appointment .tab-navigator,
+.book-appointment .button {
+  display: none;
+}
+
+.modal.show {
+  display: block;
+}
