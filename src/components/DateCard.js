@@ -8,10 +8,12 @@ const Title = styled.p`
 
 const InfoA = styled.p`
   margin: 0;
+  width: 100%;
 `
 
 const InfoB = styled.p`
-margin: 0;
+  margin: 0;
+  width: 100%;
 `
 
 const InfoC = styled.p`
@@ -26,11 +28,25 @@ const Container = styled.div`
   display: flex;
   justify-content: space-between;
   padding: 1rem;
+  align-items: center;
 `
 
-const ArrowCard = styled.img``;
+const ArrowCard = styled.img`
+  height: 20px;
+`;
 
-const MonthDay = styled.div``
+const MonthDay = styled.div`
+  text-align: center;
+  background: #2775ff;
+  color: white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  padding: 0.15rem;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+`
 
 const TimeAppointment = styled.div``
 
