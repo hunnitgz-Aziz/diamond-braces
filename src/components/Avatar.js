@@ -42,12 +42,13 @@ const useFetch = (url, options) => {
 };
 
 function Avatar() {
-  const res = useFetch("https://uinames.com/api/?ext", {});
+  const res = useFetch("https://randomuser.me/api/", {});
   if (!res.response) {
     return <Loading></Loading>;
   }
-  const Name = res.response.name;
-  const Photo = res.response.photo;
+  console.log(res.response.results[0])
+  const Name = res.response.results[0].name.first;
+  const Photo = res.response.results[0].picture.large;
   return (
     <Container>
       <Wrapper>
